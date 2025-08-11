@@ -224,7 +224,7 @@ const App: React.FC = () => {
 
         <div className="flex justify-center gap-4 flex-wrap">
           <motion.button className="bg-green-600 text-white font-bold py-3 px-6 rounded-full" whileHover={{ scale: 1.1 }} onClick={handleCelebrate}>Celebrate Now!</motion.button>
-          <motion.button className="bg-white text-green-600 font-bold py-3 px-6 rounded-full" whileHover={{ scale: 1.1 }} onClick={() => handleShare()}>Copy Celebration link</motion.button>
+          <motion.button className="bg-white text-green-600 font-bold py-3 px-6 rounded-full" whileHover={{ scale: 1.1 }} onClick={() => handleShare()}>Share Celebration</motion.button>
           <motion.button className="bg-yellow-400 text-green-800 font-bold py-3 px-6 rounded-full" whileHover={{ scale: 1.1 }} onClick={() => setShowHistory(true)}>
             <FaHistory className="inline mr-2" /> Learn History
           </motion.button>
